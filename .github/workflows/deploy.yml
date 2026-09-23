@@ -6,8 +6,8 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
+  pages: write      # Needs write permission to update the live website
+  id-token: write   # Needs write permission to secure the deployment artifact
 
 concurrency:
   group: "pages"
